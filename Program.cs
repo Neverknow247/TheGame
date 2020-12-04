@@ -1,12 +1,14 @@
 ﻿using System;
+using TheGame.Models;
 
-namespace theGame
+namespace TheGame
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
+            // PacificIslanders One = new PacificIslanders("PacificIslanders", 100, 10, 50);
         }
 
     }
