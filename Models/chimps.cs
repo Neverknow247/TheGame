@@ -1,20 +1,13 @@
-namespace theGame.Models
+using System;
+using TheGame.Models;
+
+namespace TheGame.Models
 {
-    public abstract class Chimps
+    public abstract class Chimps : Enemies
     {
-        public int Strength;
-
-        public int Dexterity;
-
-        public int Health;
-
-        public Chimps(string name)
+        public Chimps() : base("Chimps", 100, 90, 25)
         {
-            Strength = strength;
-            Dexterity = dexterity;
-            Health = health;
+            // Assign values coming in to the fields
         }
-
     }
-
 }
