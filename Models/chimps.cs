@@ -1,10 +1,11 @@
 namespace theGame.Models
 
-class Enemies
+class Chimps
 {
     public int Strength;
 
     public int Dexterity;
 
     public int Health;
+
 }
