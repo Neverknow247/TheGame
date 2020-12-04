@@ -1,10 +1,21 @@
 namespace theGame.Models
-
-class Enemies
 {
-    public int Strength;
+    public abstract class Enemies
+    {
+        public int Strength;
 
-    public int Dexterity;
+        public int Dexterity;
 
-    public int Health;
+        public int Health;
+
+        public Enemies(string name)
+        {
+            Strength = strength;
+            Dexterity = dexterity;
+            Health = health;
+        }
+
+    }
+
 }
+

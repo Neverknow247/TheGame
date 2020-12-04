@@ -1,12 +1,20 @@
-
 namespace theGame.Models
-
-class Chimps
 {
-    public int Strength;
+    public abstract class Chimps
+    {
+        public int Strength;
 
-    public int Dexterity;
+        public int Dexterity;
 
-    public int Health;
+        public int Health;
+
+        public Chimps(string name)
+        {
+            Strength = strength;
+            Dexterity = dexterity;
+            Health = health;
+        }
+
+    }
 
 }
